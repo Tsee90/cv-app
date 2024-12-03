@@ -1,0 +1,46 @@
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.editing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.add-info {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.edit-button {
+  width: 50px;
+  align-self: self-end;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+}
+
+.input-values {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+}
+
+.edit-delete-container {
+  align-self: flex-end;
+  display: flex;
+  gap: 5px;
+}
